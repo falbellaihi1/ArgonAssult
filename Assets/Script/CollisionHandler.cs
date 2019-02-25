@@ -17,7 +17,7 @@ public class CollisionHandler : MonoBehaviour
 
     private void StartDeathSequence()
     {
-        print("player dying");
+        
         SendMessage("OnPlayerDeath");
 
 

@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
        
         isControlEnabled = false;
-        print("controls forzen");
+        
    
     }
     private void ProcessTranslation()
@@ -48,10 +48,7 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        print("colider");
-    }
+  
    
     float CalculateTurn(float Throw, float localPos, bool isY)
     {
